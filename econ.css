@@ -1,0 +1,46 @@
+#nav {
+  max-width: 50%;
+  margin: auto;
+  padding-left: 25%;
+  padding-right: 25%; }
+
+#nav {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: solid;
+  background-color: #420724;
+  color: white; }
+  #nav button {
+    background-color: #420724;
+    border-color: #420724;
+    color: white;
+    box-shadow: 3px 3px 5px  white;
+    margin-left: 5px; }
+  #nav button:hover {
+    background-color: #CDACB6;
+    color: black; }
+
+a {
+  max-height: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 25px; }
+
+@media (min-width: 500px) {
+  .ECON {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px; } }
+h1 {
+  display: block;
+  color: #7E2942; }
+
+p {
+  padding-left: 10px;
+  display: block;
+  font-size: 25px;
+  min-height: 250px;
+  color: #504E49; }
+
+/*# sourceMappingURL=econ.css.map */
